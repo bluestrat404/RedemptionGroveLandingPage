@@ -1,0 +1,16 @@
+@media only screen and (max-width: 40em) {
+  .span-half {
+    -ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	max-width: 100%;
+  }
+  .span-half img {
+  	max-width: 75%;
+  	margin: 0 auto;
+  	display: block;
+  }
+  .pb3, .pt3 {
+  	padding: 0;
+  }
+  .ptb3-small{padding: 3.2rem 0;}
+}
